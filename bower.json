@@ -1,0 +1,20 @@
+{
+  "name": "WikiCategorySearch",
+  "version": "0.0.0",
+  "authors": [
+    "aadisriram <aadisriram@gmail.com>"
+  ],
+  "description": "Wikipedia Category based search",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "readmore": "~2.0.5"
+  }
+}

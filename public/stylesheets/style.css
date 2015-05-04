@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.spacer {
+  width:15px;
+  height:auto;
+  display:inline-block;
+}
+
+article {
+  max-height: 3em; /* (4 * 1.5 = 6) */
+}
+
+.box{
+  display: none;
+  width: 100%;
+}
+
+a:hover + .box,.box:hover{
+  display: block;
+  position: relative;
+  z-index: 100;
+}

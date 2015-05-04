@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/jquery-ui.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
+    block styles
+  body
+    block content
+  block scripts
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/jquery-ui.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/search.js')
+    script(src='/bower_components/readmore/readmore.min.js')

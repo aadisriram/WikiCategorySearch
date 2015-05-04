@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div
+    div(style='height:100px; width:100%; clear:both;')
+    div#search-results
+  div.container.alert.alert-info(role='alert', style="position:fixed;top:0px;left:0px;width:100%;")
+    form.form-inline(action='')
+      label(for="category") Enter Category To Search
+      div.spacer
+      input#category.form-control(type='text', style='width:70%;', placeholder='Type hashtag to search')
+      div.spacer
+      button#search-button.btn.btn-default(type='submit', style='width:9%;') Search
+    br
+    h4#result-time
