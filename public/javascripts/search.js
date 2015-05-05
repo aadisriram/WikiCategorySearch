@@ -3,7 +3,7 @@
  */
 var port = 3000;
 
-var server_name = "http://localhost:" + port + "/";
+var server_name = "http://152.46.20.89:" + port + "/";
 var server = io.connect(server_name);
 
 var wikiBaseUrl = "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=Stack%20Overflow";
